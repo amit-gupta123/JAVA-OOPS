@@ -1,0 +1,41 @@
+object: Any real world entity which exist physically.
+      : Object is actullay the thing which occupy space in memory
+
+Class : A logical construct of any real world entity, obviously object.
+
+Objects have three essential properties:
+        1. State of the object: Its values from its datatype.
+        2. Identity of the object: Whether one object is different from other/ if they are stored at same memory location.
+        3. Behaviour of the object: Behaviour of object is its operation on its data type/predefined function.
+
+
+Note: Instance variable  : variables inside an object those are declared in class template.
+      Reference variable : having reference of memory location/ reference of objects.
+
+      by default a reference variable conatains null value in java.
+      all classes in java must be allocated dynamically.
+
+className objectName = new ClassName();
+--------------------  -----------------
+   compile time         run Time
+if an object is created that means class is instantiated.
+
+
+ClassName(); is an speciall type of function called Consetructor and automatically gets called whenever we create an object
+this keyword: used to acces the particular objects's data member inside class in a constructor.
+
+----------------------------------------------------------------------------
+in java primitives are not implemented as object.// stored in stack memory. to make efficiency.
+wrapper classes provide a way to create primitive as object.
+
+final keyword means the variable can not be modified.
+final variales must be initialised while declared. why? because can't modify it.
+final guarantee unmodifiability only if data type is primitive. not reference data type.
+Automatic garbage collcetion happens in java
+but there is a way provided by java that some action to be performed while changin references.
+we can not destroy object, that can be done by garbage collector
+but we can perform some action while garbage collector is about to destroy the object.
+
+
+*******************************************************************************************
+

@@ -1,0 +1,9 @@
+packages are stored in hierarchical manner
+reduces file-name collision
+
+Only public things can be used in inter-package code (one package to other)
+How does java knows about files in other file and packages
+
+Ans : via import statements.
+But how does java runtime determine where to look for these packages.
+Just via system, current directories and other subdirectories and it will be found
